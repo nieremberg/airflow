@@ -1860,3 +1860,87 @@
 [2024-11-14T19:26:28.303+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:26:28.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-14T19:26:28.317+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:26:28.317+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
 [2024-11-14T19:26:28.335+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.069 seconds
+[2024-11-14T19:26:58.674+0000] {processor.py:186} INFO - Started process (PID=11540) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:26:58.674+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:26:58.676+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:26:58.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:26:58.683+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:26:58.699+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:26:58.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:26:58.708+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:26:58.708+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:26:58.722+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.052 seconds
+[2024-11-14T19:27:28.931+0000] {processor.py:186} INFO - Started process (PID=11605) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:28.932+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:27:28.933+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:28.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:28.940+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:28.956+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:28.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:27:28.966+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:28.966+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:27:28.977+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.050 seconds
+[2024-11-14T19:27:59.542+0000] {processor.py:186} INFO - Started process (PID=11670) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:59.543+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:27:59.545+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:59.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:59.551+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:27:59.567+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:59.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:27:59.576+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:27:59.576+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:27:59.589+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.050 seconds
+[2024-11-14T19:28:30.628+0000] {processor.py:186} INFO - Started process (PID=11735) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:28:30.629+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:28:30.631+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:28:30.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:28:30.639+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:28:30.661+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:28:30.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:28:30.673+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:28:30.673+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:28:30.696+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.072 seconds
+[2024-11-14T19:29:00.834+0000] {processor.py:186} INFO - Started process (PID=11799) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:00.835+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:29:00.836+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:00.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:00.842+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:00.856+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:00.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:29:00.866+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:00.865+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:29:00.877+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.047 seconds
+[2024-11-14T19:29:31.816+0000] {processor.py:186} INFO - Started process (PID=11864) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:31.817+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:29:31.819+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:31.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:31.829+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:29:31.853+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:31.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:29:31.869+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:29:31.868+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:29:31.891+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.081 seconds
+[2024-11-14T19:30:02.887+0000] {processor.py:186} INFO - Started process (PID=11930) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:02.888+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:30:02.889+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:02.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:02.896+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:02.912+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:02.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:30:02.923+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:02.923+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:30:02.937+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.053 seconds
+[2024-11-14T19:30:33.260+0000] {processor.py:186} INFO - Started process (PID=11995) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:33.261+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:30:33.262+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:33.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:33.269+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:30:33.285+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:33.285+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:30:33.295+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:30:33.295+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:30:33.310+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.054 seconds
+[2024-11-14T19:31:03.713+0000] {processor.py:186} INFO - Started process (PID=12059) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:03.714+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:31:03.716+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:03.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:03.724+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:03.741+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:03.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:31:03.752+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:03.751+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:31:03.765+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.055 seconds
+[2024-11-14T19:31:34.120+0000] {processor.py:186} INFO - Started process (PID=12125) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:34.120+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:31:34.122+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:34.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:34.128+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:31:34.143+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:34.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:31:34.153+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:31:34.153+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:31:34.166+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.049 seconds
+[2024-11-14T19:32:05.382+0000] {processor.py:186} INFO - Started process (PID=12191) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:05.383+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:32:05.385+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:05.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:05.391+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:05.408+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:05.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:32:05.419+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:05.419+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:32:05.433+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.056 seconds
+[2024-11-14T19:32:35.846+0000] {processor.py:186} INFO - Started process (PID=12256) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:35.847+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-11-14T19:32:35.849+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:35.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:35.858+0000] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-11-14T19:32:35.876+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:35.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-14T19:32:35.889+0000] {logging_mixin.py:190} INFO - [2024-11-14T19:32:35.888+0000] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2024-11-14T19:32:35.904+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.063 seconds
