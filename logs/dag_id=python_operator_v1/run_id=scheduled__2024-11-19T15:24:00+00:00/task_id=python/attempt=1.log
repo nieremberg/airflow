@@ -1,0 +1,73 @@
+[2024-11-19T17:48:21.663+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-19T17:48:21.724+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_operator_v1.python scheduled__2024-11-19T15:24:00+00:00 [queued]>
+[2024-11-19T17:48:21.754+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_operator_v1.python scheduled__2024-11-19T15:24:00+00:00 [queued]>
+[2024-11-19T17:48:21.754+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-19T17:48:21.804+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): python> on 2024-11-19 15:24:00+00:00
+[2024-11-19T17:48:21.822+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=10250) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-19T17:48:21.827+0000] {standard_task_runner.py:72} INFO - Started process 10268 to run task
+[2024-11-19T17:48:21.828+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'python_operator_v1', 'python', 'scheduled__2024-11-19T15:24:00+00:00', '--job-id', '13320', '--raw', '--subdir', 'DAGS_FOLDER/python_operator_v2.py', '--cfg-path', '/tmp/tmp_8lpuyiv']
+[2024-11-19T17:48:21.831+0000] {standard_task_runner.py:105} INFO - Job 13320: Subtask python
+[2024-11-19T17:48:21.938+0000] {task_command.py:467} INFO - Running <TaskInstance: python_operator_v1.python scheduled__2024-11-19T15:24:00+00:00 [running]> on host e9d4ecc96ed3
+[2024-11-19T17:48:22.481+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='python_operator_v1' AIRFLOW_CTX_TASK_ID='python' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T15:24:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T15:24:00+00:00'
+[2024-11-19T17:48:22.482+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-19T17:48:22.483+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-19T17:48:22.483+0000] {logging_mixin.py:190} INFO - Current task name:python state:running start_date:2024-11-19 17:48:21.725688+00:00
+[2024-11-19T17:48:22.483+0000] {logging_mixin.py:190} INFO - Dag name:python_operator_v1 and current dag run status:running
+[2024-11-19T17:48:22.484+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-19T17:48:22.499+0000] {logging_mixin.py:190} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7fa0e076b0e0>,
+ 'conn': None,
+ 'dag': <DAG: python_operator_v1>,
+ 'dag_run': <DagRun python_operator_v1 @ 2024-11-19 15:24:00+00:00: scheduled__2024-11-19T15:24:00+00:00, state:running, queued_at: 2024-11-19 17:48:17.040407+00:00. externally triggered: False>,
+ 'data_interval_end': DateTime(2024, 11, 19, 15, 25, 0, tzinfo=Timezone('UTC')),
+ 'data_interval_start': DateTime(2024, 11, 19, 15, 24, 0, tzinfo=Timezone('UTC')),
+ 'ds_nodash': '20241119',
+ 'execution_date': <Proxy at 0x7fa0ad1da380 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'execution_date', DateTime(2024, 11, 19, 15, 24, 0, tzinfo=Timezone('UTC')))>,
+ 'expanded_ti_count': None,
+ 'inlet_events': InletEventsAccessors(_inlets=[], _datasets={}, _dataset_aliases={}, _session=<sqlalchemy.orm.session.Session object at 0x7fa0e05c1b50>),
+ 'inlets': [],
+ 'logical_date': DateTime(2024, 11, 19, 15, 24, 0, tzinfo=Timezone('UTC')),
+ 'macros': <module '***.macros' from '/home/***/.local/lib/python3.12/site-packages/***/macros/__init__.py'>,
+ 'map_index_template': None,
+ 'next_ds': <Proxy at 0x7fa0acfc8c40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'next_ds', '2024-11-19')>,
+ 'next_ds_nodash': <Proxy at 0x7fa0acfd5340 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'next_ds_nodash', '20241119')>,
+ 'next_execution_date': <Proxy at 0x7fa0acfed880 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'next_execution_date', DateTime(2024, 11, 19, 15, 25, 0, tzinfo=Timezone('UTC')))>,
+ 'outlet_events': <***.utils.context.OutletEventAccessors object at 0x7fa0ad000b30>,
+ 'outlets': [],
+ 'params': {},
+ 'prev_data_interval_end_success': DateTime(2024, 11, 19, 15, 19, 0, tzinfo=Timezone('UTC')),
+ 'prev_data_interval_start_success': DateTime(2024, 11, 19, 15, 18, 0, tzinfo=Timezone('UTC')),
+ 'prev_ds': <Proxy at 0x7fa0c7995480 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'prev_ds', '2024-11-19')>,
+ 'prev_ds_nodash': <Proxy at 0x7fa0c7994dc0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'prev_ds_nodash', '20241119')>,
+ 'prev_end_date_success': DateTime(2024, 11, 19, 17, 48, 17, 879626, tzinfo=Timezone('UTC')),
+ 'prev_execution_date': <Proxy at 0x7fa0c7994400 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'prev_execution_date', DateTime(2024, 11, 19, 15, 23, 0, tzinfo=Timezone('UTC')))>,
+ 'prev_execution_date_success': <Proxy at 0x7fa0acf89480 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'prev_execution_date_success', DateTime(2024, 11, 19, 15, 18, 0, tzinfo=Timezone('UTC')))>,
+ 'prev_start_date_success': DateTime(2024, 11, 19, 17, 48, 15, 184130, tzinfo=Timezone('UTC')),
+ 'run_id': 'scheduled__2024-11-19T15:24:00+00:00',
+ 'task': <Task(_PythonDecoratedOperator): python>,
+ 'task_instance': <TaskInstance: python_operator_v1.python scheduled__2024-11-19T15:24:00+00:00 [running]>,
+ 'task_instance_key_str': 'python_operator_v1__python__20241119',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: python_operator_v1.python scheduled__2024-11-19T15:24:00+00:00 [running]>,
+ 'tomorrow_ds': <Proxy at 0x7fa0acf89000 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'tomorrow_ds', '2024-11-20')>,
+ 'tomorrow_ds_nodash': <Proxy at 0x7fa0ad0b1100 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'tomorrow_ds_nodash', '20241120')>,
+ 'triggering_dataset_events': <Proxy at 0x7fa0ad0099c0 with factory <function _get_template_context.<locals>.get_triggering_events at 0x7fa0acfddda0>>,
+ 'ts': '2024-11-19T15:24:00+00:00',
+ 'ts_nodash': '20241119T152400',
+ 'ts_nodash_with_tz': '20241119T152400+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': <Proxy at 0x7fa0ad0b2080 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'yesterday_ds', '2024-11-18')>,
+ 'yesterday_ds_nodash': <Proxy at 0x7fa0ad0b0e40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fa0c7972ca0>, 'yesterday_ds_nodash', '20241118')>}
+[2024-11-19T17:48:22.500+0000] {logging_mixin.py:190} INFO - 2024-11-19
+[2024-11-19T17:48:22.500+0000] {python.py:240} INFO - Done. Returned value was: meu retorno agora é este texto
+[2024-11-19T17:48:22.530+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-19T17:48:22.531+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=python_operator_v1, task_id=python, run_id=scheduled__2024-11-19T15:24:00+00:00, execution_date=20241119T152400, start_date=20241119T174821, end_date=20241119T174822
+[2024-11-19T17:48:22.547+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-19T17:48:22.547+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-19T17:48:22.548+0000] {logging_mixin.py:190} INFO - Dag name:python_operator_v1 queued_at:2024-11-19 17:48:17.040407+00:00
+[2024-11-19T17:48:22.548+0000] {logging_mixin.py:190} INFO - Task hostname:e9d4ecc96ed3 operator:_PythonDecoratedOperator
+[2024-11-19T17:48:22.572+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-19T17:48:22.598+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-19T17:48:22.601+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
